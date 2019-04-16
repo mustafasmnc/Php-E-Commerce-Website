@@ -1,0 +1,1 @@
+#ilk 6 kısım yapıldı
