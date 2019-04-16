@@ -1,1 +1,1 @@
-İlk 7 kısım yapıldı.
+İlk 9 kısım yapıldı.
