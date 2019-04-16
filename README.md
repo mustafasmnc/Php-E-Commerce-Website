@@ -1,0 +1,1 @@
+İlk 12 kısım yapıldı.
