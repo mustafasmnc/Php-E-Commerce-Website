@@ -266,7 +266,77 @@ body{
     }
 }
 
+/*  Details.php Styles */
 
+
+#content #productMain{
+    margin-bottom: 30px;
+}
+#content #productMain .price{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 30px;
+}
+#content #mainImage{
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .7);
+}
+#content #thumbs a{
+    display: block;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+    border: 2px solid transparent;
+}
+#content .headline{
+    height: 305px;
+}
+
+/*  Cart.php Styles  */
+
+#content #cart .table tbody tr td img{
+    width: 50px;
+}
+#content #cart .table tbody tr td input{
+    width: 40px;
+    text-align: right;
+}
+#content #cart .table tbody tr td{
+    vertical-align: middle;
+}
+#content #cart .table tfoot{
+    font-size: 18px;
+}
+.box .box-footer{
+    background-color: #f7f7f7;
+    margin: 30px -20px 20px;
+    padding: 20px;
+    border-top: 1px solid #eeeeee;
+}
+.box .box-footer:before,
+.box .box-footer:after{
+    content: "";
+    display: table;
+}
+.box .box-footer:after{
+    clear: both;
+}
+.box .box-header{
+    background-color: #f7f7f7;
+    margin: -20px -20px 20px;
+    padding: 20px;
+    border-top: 1px solid #eeeeee;
+}
+#content #order-summary table{
+    margin-top: 20px;
+}
+#content #order-summary table td{
+    color: #999999;
+}
+#content #order-summary table tr.total td,
+#content #order-summary table tr.total th{
+    font-size: 18px;
+    color: #555555;
+    font-weight: 700;
+}
 
 
 /*  Footer Styles  */
