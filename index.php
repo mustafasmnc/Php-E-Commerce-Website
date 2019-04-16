@@ -172,25 +172,25 @@
                    
                    <div class="item active">
                        
-                       <img src="admin_area/slides_images/slide-1.jpg" alt="Slider Image 1">
+                       <img src="admin_area/slides_images/slid-1.jpg" alt="Slider Image 1">
                        
                    </div>
                    
                    <div class="item">
                        
-                       <img src="admin_area/slides_images/slide-2.jpg" alt="Slider Image 2">
+                       <img src="admin_area/slides_images/slid-2.jpg" alt="Slider Image 2">
                        
                    </div>
                    
                    <div class="item">
                        
-                       <img src="admin_area/slides_images/slide-3.jpg" alt="Slider Image 3">
+                       <img src="admin_area/slides_images/slid-3.jpg" alt="Slider Image 3">
                        
                    </div>
                    
                    <div class="item">
                        
-                       <img src="admin_area/slides_images/slide-4.jpg" alt="Slider Image 4">
+                       <img src="admin_area/slides_images/slid-4.jpg" alt="Slider Image 4">
                        
                    </div>
                    
