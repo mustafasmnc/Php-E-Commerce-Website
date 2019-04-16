@@ -6,10 +6,10 @@
                <h4>Pages</h4>
                 
                 <ul><!-- ul Begin -->
-                    <li><a href="cart.php">Shopping Cart</a></li>
-                    <li><a href="contact.php">Contact Us</a></li>
-                    <li><a href="shop.php">Shop</a></li>
-                    <li><a href="customer/my_account.php">My Account</a></li>
+                    <li><a href="../cart.php">Shopping Cart</a></li>
+                    <li><a href="../contact.php">Contact Us</a></li>
+                    <li><a href="../shop.php">Shop</a></li>
+                    <li><a href="my_account.php">My Account</a></li>
                 </ul><!-- ul Finish -->
                 
                 <hr>
@@ -17,8 +17,8 @@
                 <h4>User Section</h4>
                 
                 <ul><!-- ul Begin -->
-                    <li><a href="checkout.php">Login</a></li>
-                    <li><a href="customer_register.php">Register</a></li>
+                    <li><a href="../checkout.php">Login</a></li>
+                    <li><a href="../customer_register.php">Register</a></li>
                 </ul><!-- ul Finish -->
                 
                 <hr class="hidden-md hidden-lg hidden-sm">
@@ -56,7 +56,7 @@
                     
                 </p><!-- p Finish -->
                 
-                <a href="contact.php">Check Our Contact Page</a>
+                <a href="../contact.php">Check Our Contact Page</a>
                 
                 <hr class="hidden-md hidden-lg">
                 

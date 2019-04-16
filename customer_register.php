@@ -29,7 +29,7 @@
                        <a href="customer_register.php">Register</a>
                    </li>
                    <li>
-                       <a href="checkout.php">My Account</a>
+                       <a href="customer/my_account.php">My Account</a>
                    </li>
                    <li>
                        <a href="cart.php">Go To Cart</a>
@@ -90,7 +90,7 @@
                            <a href="shop.php">Shop</a>
                        </li>
                        <li>
-                           <a href="checkout.php">My Account</a>
+                           <a href="customer/my_account.php">My Account</a>
                        </li>
                        <li>
                            <a href="cart.php">Shopping Cart</a>
@@ -186,7 +186,7 @@
                        
                        <center><!-- center Begin -->
                            
-                           <h2> Register a new account</h2>
+                           <h2> Register a new account </h2>
                            
                        </center><!-- center Finish -->
                        
@@ -242,9 +242,9 @@
                            
                            <div class="form-group"><!-- form-group Begin -->
                                
-                               <label>Your Adress</label>
+                               <label>Your Address</label>
                                
-                               <input type="text" class="form-control" name="c_adress" required>
+                               <input type="text" class="form-control" name="c_address" required>
                                
                            </div><!-- form-group Finish -->
                            
@@ -252,7 +252,7 @@
                                
                                <label>Your Profile Picture</label>
                                
-                               <input type="file" class="form-control" name="c_image" required>
+                               <input type="file" class="form-control form-height-custom" name="c_image" required>
                                
                            </div><!-- form-group Finish -->
                            
@@ -260,7 +260,7 @@
                                
                                <button type="submit" name="register" class="btn btn-primary">
                                
-                               <i class="fa fa-user-md"></i>Register
+                               <i class="fa fa-user-md"></i> Register
                                
                                </button>
                                

@@ -6,11 +6,11 @@
     <div class="panel-body"><!-- panel-body Begin -->
         <ul class="nav nav-pills nav-stacked category-menu"><!-- nav nav-pills nav-stacked category-menu Begin -->
             
-            <li><a href="#">Ağırlıklar</a></li>
-            <li><a href="#">Kondisyon Bisikletleri</a></li>
-            <li><a href="#">Eliptik Bisikletler</a></li>
-            <li><a href="#">Koşu Bantları</a></li>
-            <li><a href="#">Dambıl Setleri</a></li>
+            <li><a href="#">Jackets</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">Coats</a></li>
+            <li><a href="#">T-Shirt</a></li>
             
         </ul><!-- nav nav-pills nav-stacked category-menu Finish -->
     </div><!-- panel-body Finish -->
@@ -26,10 +26,10 @@
     <div class="panel-body"><!-- panel-body Begin -->
         <ul class="nav nav-pills nav-stacked category-menu"><!-- nav nav-pills nav-stacked category-menu Begin -->
             
-            <li><a href="#">Erkek</a></li>
-            <li><a href="#">Kadın</a></li>
-            <li><a href="#">Çocuk</a></li>
-            <li><a href="#">Diğer</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Others</a></li>
             
         </ul><!-- nav nav-pills nav-stacked category-menu Finish -->
     </div><!-- panel-body Finish -->

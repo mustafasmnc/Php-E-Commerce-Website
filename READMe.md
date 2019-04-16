@@ -1,1 +1,1 @@
-İlk 11 kısım yapıldı.
+İlk 12 kısım yapıldı.

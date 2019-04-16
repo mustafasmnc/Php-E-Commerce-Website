@@ -29,7 +29,7 @@
                        <a href="customer_register.php">Register</a>
                    </li>
                    <li>
-                       <a href="checkout.php">My Account</a>
+                       <a href="customer/my_account.php">My Account</a>
                    </li>
                    <li>
                        <a href="cart.php">Go To Cart</a>
@@ -90,7 +90,7 @@
                            <a href="shop.php">Shop</a>
                        </li>
                        <li>
-                           <a href="checkout.php">My Account</a>
+                           <a href="customer/my_account.php">My Account</a>
                        </li>
                        <li class="active">
                            <a href="cart.php">Shopping Cart</a>
@@ -252,7 +252,7 @@
                                        
                                        <td>
                                            
-                                           <img class="img-responsive" src="admin_area/product_images/product-1.jpg" alt="Product 3a" >
+                                           <img class="img-responsive" src="admin_area/product_images/product-1.jpg" alt="Product 3a">
                                            
                                        </td>
                                        
@@ -302,7 +302,7 @@
                                        
                                        <td>
                                            
-                                           <img class="img-responsive" src="admin_area/product_images/Product-6a.jpg" alt="Product 3a" >
+                                           <img class="img-responsive" src="admin_area/product_images/Product-6a.jpg" alt="Product 3a">
                                            
                                        </td>
                                        
