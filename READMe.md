@@ -1,1 +1,1 @@
-#ilk 6 kısım yapıldı.
+İlk 7 kısım yapıldı.
