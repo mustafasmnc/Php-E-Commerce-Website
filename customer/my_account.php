@@ -52,7 +52,7 @@
            
            <div class="navbar-header"><!-- navbar-header Begin -->
                
-               <a href="index.php" class="navbar-brand home"><!-- navbar-brand home Begin -->
+               <a href="../index.php" class="navbar-brand home"><!-- navbar-brand home Begin -->
                    
                    <img src="images/ecom-store-logo.png" alt="M-dev-Store Logo" class="hidden-xs">
                    <img src="images/ecom-store-logo-mobile.png" alt="M-dev-Store Logo Mobile" class="visible-xs">
@@ -186,6 +186,30 @@
                    
                    if (isset($_GET['my_orders'])){
                        include("my_orders.php");
+                   }
+                   
+                   ?>
+                   
+                   <?php
+                   
+                   if (isset($_GET['edit_account'])){
+                    include("edit_account.php");
+                   }
+                   
+                   ?>
+                   
+                   <?php
+                   
+                   if (isset($_GET['change_pass'])){
+                    include("change_pass.php");
+                   }
+                   
+                   ?>
+                   
+                   <?php
+                   
+                   if (isset($_GET['delete_account'])){
+                    include("delete_account.php");
                    }
                    
                    ?>
