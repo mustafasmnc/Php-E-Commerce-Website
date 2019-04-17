@@ -1,1 +1,1 @@
-İlk 12 kısım yapıldı.
+Web Case 9 Closed
