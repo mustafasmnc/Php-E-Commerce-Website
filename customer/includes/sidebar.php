@@ -12,7 +12,7 @@
         
         <h3 align="center" class="panel-title"><!--  panel-title  Begin  -->
             
-            Name: Miss Erika
+            Name: Mustafa Samancı
             
         </h3><!--  panel-title  Finish -->
         
