@@ -1,2 +1,1 @@
-Web Case 99 Closed 
-(Fixing Footer Error)
+Web Cases 15 and 93 Closed 
