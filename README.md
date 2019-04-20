@@ -1,1 +1,2 @@
-Web Case 99 Closed
+Web Case 99 Closed 
+(Fixing Footer Error)
