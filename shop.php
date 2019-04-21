@@ -202,13 +202,7 @@
                    </ul><!-- pagination Finish -->
                </center>
                 
-                <?php 
-               
-               getpcatpro(); 
-               
-               getcatpro();
-               
-               ?>  
+                <?php getpcatpro(); ?>  
                
            </div><!-- col-md-9 Finish -->
            
