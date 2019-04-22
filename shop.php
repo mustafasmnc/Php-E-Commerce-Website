@@ -113,7 +113,7 @@
                                             
                                                 <p class='price'>
 
-                                                    $$pro_price
+                                                    $pro_price TL
 
                                                 </p>
 
