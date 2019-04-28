@@ -333,7 +333,7 @@ body{
 }
 #content #order-summary table tr.total td,
 #content #order-summary table tr.total th{
-    font-size: 18px;
+    font-size: 16px;
     color: #555555;
     font-weight: 700;
 }
