@@ -93,6 +93,42 @@
                            </div><!-- text-center Finish -->
                            
                        </form><!-- form Finish -->
+
+                       <?php 
+
+                        if(isset($_POST['submit'])){
+
+                            //Admin receive message with this
+
+                            $sender_name=$_POST['name'];
+
+                            $sender_email=$_POST['email'];
+
+                            $sender_subject=$_POST['subject'];
+
+                            $sender_message=$_POST['message'];
+
+                            $receiver_email="mustafasmnc@gmail.com";
+
+                            mail($receiver_email,$sender_name,$sender_subject,$sender_message,$sender_email);
+
+                            // auto reply to sender with this
+
+                            $email=$_POST['email'];
+
+                            $subject="Fitit.com'a Hoşgeldiniz..";
+
+                            $msg="Bizimle İleşitime Geçtiğiniz İçin Teşekkür Ederiz. En Yakın Zamanda Mesajınızı Cevaplayacağız.";
+
+                            $from="mustafasmnc@gmail.com";
+
+                            mail($email,$subject,$msg,$from);
+
+                            echo "<h2> Mesajınız Başarıyla Gonderildi /h2>";
+
+                        }
+
+                       ?>
                        
                    </div><!-- box-header Finish -->
                    
