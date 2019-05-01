@@ -117,7 +117,7 @@
                                        
                                        <td>
                                            
-                                            <?php echo $product_price; ?>
+                                            <?php echo $product_price; echo " TL"; ?>
                                            
                                        </td>
                                        
@@ -255,7 +255,7 @@
                             <div class='text'><!-- text Begin -->
                                 <h3><a href='details.php?pro_id=$pro_id'> $pro_title </a></h3>
                                 
-                                <p class='price'>$$pro_price</p>
+                                <p class='price'>$pro_price TL</p>
                                 
                             </div><!-- text Finish -->
                             
@@ -304,14 +304,14 @@
                                <tr><!-- tr Begin -->
                                    
                                    <td> Shipping and Handling </td>
-                                   <td> $0 </td>
+                                   <td> 0 TL </td>
                                    
                                </tr><!-- tr Finish -->
                                
                                <tr><!-- tr Begin -->
                                    
                                    <td> Tax </td>
-                                   <th> $0 </th>
+                                   <th> 0 TL </th>
                                    
                                </tr><!-- tr Finish -->
                                

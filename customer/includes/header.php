@@ -1,6 +1,9 @@
 <?php
 
+session_start();
+
 include("includes/db.php");
+include("../functions/functions.php");
 
 ?>
 
@@ -21,9 +24,39 @@ include("includes/db.php");
        <div class="container"><!-- container Begin -->
            
            <div class="col-md-6 offer"><!-- col-md-6 offer Begin -->
+
+                <?php
+
+                    $ip_add=getRealIpUser();
+
+                    $select_cart="select * from cart where ip_add='$ip_add'";
+
+                    $run_cart=mysqli_query($con,$select_cart);
+
+                    $count=mysqli_num_rows($run_cart);
+
+
+                ?>
                
-               <a href="#" class="btn btn-success btn-sm">Welcome</a>
-               <a href="checkout.php">4 Items In Your Cart | Total Price: $300 </a>
+               <a href="#" class="btn btn-success btn-sm">
+               
+               <?php
+
+                if(!isset($_SESSION['customer_email'])){
+
+                    echo "Welcome: Guest";
+        
+                }
+                else{
+
+                    echo "Welcome: ".$_SESSION['customer_email']."";
+
+                }
+
+               ?>
+
+               </a>
+               <a href="checkout.php"><?php echo $count; ?> Items In Your Cart </a>
                
            </div><!-- col-md-6 offer Finish -->
            
@@ -41,7 +74,24 @@ include("includes/db.php");
                        <a href="../cart.php">Go To Cart</a>
                    </li>
                    <li>
-                       <a href="../checkout.php">Login</a>
+                       <a href="../checkout.php">
+                       
+                       <?php
+
+                                if(!isset($_SESSION['customer_email'])){
+
+                                    echo "<a href='checkout.php'> Giriş </a>";
+
+                                }
+                                else{
+
+                                    echo "<a href='logout.php'> Çıkış </a>";
+
+                                }
+
+                            ?>
+                       
+                       </a>
                    </li>
                    
                </ul><!-- menu Finish -->
@@ -113,7 +163,7 @@ include("includes/db.php");
                    
                    <i class="fa fa-shopping-cart"></i>
                    
-                   <span>4 Items In Your Cart</span>
+                   <span><?php echo $count; ?> Items In Your Cart</span>
                    
                </a><!-- btn navbar-btn btn-primary Finish -->
                
