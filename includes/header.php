@@ -122,12 +122,12 @@ if(isset($_GET['pro_id'])){
 
                                 if(!isset($_SESSION['customer_email'])){
 
-                                    echo "<a href='checkout.php'> Giriş </a>";
+                                    echo "<a href='checkout.php'> Login </a>";
 
                                 }
                                 else{
 
-                                    echo "<a href='logout.php'> Çıkış </a>";
+                                    echo "<a href='logout.php'> Log Out </a>";
 
                                 }
 
