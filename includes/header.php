@@ -98,7 +98,7 @@ if(isset($_GET['pro_id'])){
                
                </a>
 
-               <a href="checkout.php"><?php echo $count; ?> Items In Your Cart </a>
+               <a href="checkout.php"><?php echo $count; ?> Item(s) In Your Cart </a>
                
            </div><!-- col-md-6 offer Finish -->
            
