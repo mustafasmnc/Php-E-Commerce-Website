@@ -103,8 +103,21 @@ if(isset($_GET['pro_id'])){
                
                <ul class="menu"><!-- cmenu Begin -->
                    
-                   <li>
-                       <a href="../customer_register.php">Register</a>
+                     <li>
+                       
+                       <?php
+
+                        if(!isset($_SESSION['customer_email'])){
+
+                            echo "<a href='customer_register.php'> Register </a>";
+
+                        }
+                        else{
+
+                        }
+
+                        ?>
+                       
                    </li>
                    <li>
                        <a href="my_account.php">My Account</a>
@@ -198,7 +211,7 @@ if(isset($_GET['pro_id'])){
                    
                </div><!-- padding-nav Finish -->
                
-               <a href="cart.php" class="btn navbar-btn btn-primary right"><!-- btn navbar-btn btn-primary Begin -->
+               <a href="../cart.php" class="btn navbar-btn btn-primary right"><!-- btn navbar-btn btn-primary Begin -->
                    
                    <i class="fa fa-shopping-cart"></i>
                    

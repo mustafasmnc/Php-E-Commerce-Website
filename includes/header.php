@@ -106,9 +106,32 @@ if(isset($_GET['pro_id'])){
                
                <ul class="menu"><!-- cmenu Begin -->
                    
-                   <li>
-                       <a href="customer_register.php">Register</a>
-                   </li>
+                    
+                    <?php
+
+                    if(!isset($_SESSION['customer_email'])){
+
+                    ?>
+
+                        <li>
+
+                        <?php
+
+                        echo "<a href='customer_register.php'> Register </a>";
+                        
+                        ?>
+
+                        </li>
+
+                        <?php
+
+                    }
+                    else{
+
+                    }
+
+                    ?>
+
                    <li>
                        <a href="checkout.php">My Account</a>
                    </li>

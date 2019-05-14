@@ -71,9 +71,31 @@ include("../functions/functions.php");
                
                <ul class="menu"><!-- cmenu Begin -->
                    
-                   <li>
-                       <a href="../customer_register.php">Register</a>
-                   </li>
+                       <?php
+
+                        if(!isset($_SESSION['customer_email'])){
+
+                        ?>
+
+                            <li>
+
+                            <?php
+
+                            echo "<a href='customer_register.php'> Register </a>";
+                            
+                            ?>
+
+                            </li>
+
+                            <?php
+
+                        }
+                        else{
+
+                        }
+
+                        ?>
+                       
                    <li>
                        <a href="my_account.php">My Account</a>
                    </li>
@@ -166,7 +188,7 @@ include("../functions/functions.php");
                    
                </div><!-- padding-nav Finish -->
                
-               <a href="cart.php" class="btn navbar-btn btn-primary right"><!-- btn navbar-btn btn-primary Begin -->
+               <a href="../cart.php" class="btn navbar-btn btn-primary right"><!-- btn navbar-btn btn-primary Begin -->
                    
                    <i class="fa fa-shopping-cart"></i>
                    
